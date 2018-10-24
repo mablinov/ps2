@@ -1,0 +1,13 @@
+vhdl xil_defaultlib ../../../signals/debouncer.vhd
+vhdl xil_defaultlib ../../../signals/strobe_if_changed.vhd
+
+vhdl xil_defaultlib ../../../ssd/ssd_ctrl.vhd
+
+vhdl xil_defaultlib ../../ps2_util.vhd
+vhdl xil_defaultlib ../../ps2_bit_rx_strobe.vhd
+vhdl xil_defaultlib ../../ps2_shifter.vhd
+vhdl xil_defaultlib ../../ps2_byte_parser.vhd
+vhdl xil_defaultlib ../../ps2_interface.vhd
+vhdl xil_defaultlib ../../ps2_interface_test.vhd
+
+vhdl xil_defaultlib ../tb/ps2_interface_test_tb.vhd

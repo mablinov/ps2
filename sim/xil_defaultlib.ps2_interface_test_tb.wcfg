@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="xil_defaultlib.ps2_interface_test_tb.wdb" id="1">
+         <top_modules>
+            <top_module name="ps2_interface_test_tb" />
+            <top_module name="ps2_util" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="5000000000001fs"></ZoomEndTime>
+      <Cursor1Time time="5000000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="115"></NameColumnWidth>
+      <ValueColumnWidth column_width="202"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject type="logic" fp_name="/ps2_interface_test_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ps2_interface_test_tb/ps2_clk">
+      <obj_property name="ElementShortName">ps2_clk</obj_property>
+      <obj_property name="ObjectShortName">ps2_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ps2_interface_test_tb/ps2_data">
+      <obj_property name="ElementShortName">ps2_data</obj_property>
+      <obj_property name="ObjectShortName">ps2_data</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ps2_interface_test_tb/seg_cs">
+      <obj_property name="ElementShortName">seg_cs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_cs[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ps2_interface_test_tb/dig_en">
+      <obj_property name="ElementShortName">dig_en[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dig_en[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider11" type="divider">
+      <obj_property name="label">segments</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ps2_interface_test_tb/uut/d7">
+      <obj_property name="ElementShortName">d7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d7[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ps2_interface_test_tb/uut/d6">
+      <obj_property name="ElementShortName">d6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d6[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ps2_interface_test_tb/uut/d5">
+      <obj_property name="ElementShortName">d5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d5[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ps2_interface_test_tb/uut/d4">
+      <obj_property name="ElementShortName">d4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d4[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ps2_interface_test_tb/uut/d3">
+      <obj_property name="ElementShortName">d3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d3[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ps2_interface_test_tb/uut/d2">
+      <obj_property name="ElementShortName">d2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ps2_interface_test_tb/uut/d1">
+      <obj_property name="ElementShortName">d1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ps2_interface_test_tb/uut/d0">
+      <obj_property name="ElementShortName">d0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/ps2_interface_test_tb/uut/kp_count">
+      <obj_property name="ElementShortName">kp_count</obj_property>
+      <obj_property name="ObjectShortName">kp_count</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/ps2_interface_test_tb/uut/kp_index">
+      <obj_property name="ElementShortName">kp_index</obj_property>
+      <obj_property name="ObjectShortName">kp_index</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ps2_interface_test_tb/uut/kp_count_slv">
+      <obj_property name="ElementShortName">kp_count_slv[7:0]</obj_property>
+      <obj_property name="ObjectShortName">kp_count_slv[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ps2_interface_test_tb/uut/kp_index_slv">
+      <obj_property name="ElementShortName">kp_index_slv[7:0]</obj_property>
+      <obj_property name="ObjectShortName">kp_index_slv[7:0]</obj_property>
+   </wvobject>
+</wave_config>

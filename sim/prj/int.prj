@@ -1,0 +1,6 @@
+vhdl xil_defaultlib ../../ps2_util.vhd
+vhdl xil_defaultlib ../../ps2_bit_rx_strobe.vhd
+vhdl xil_defaultlib ../../ps2_shifter.vhd
+vhdl xil_defaultlib ../../ps2_byte_parser.vhd
+vhdl xil_defaultlib ../../ps2_interface.vhd
+

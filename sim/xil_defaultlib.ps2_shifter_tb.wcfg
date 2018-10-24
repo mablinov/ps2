@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="xil_defaultlib.ps2_shifter_tb.wdb" id="1">
+         <top_modules>
+            <top_module name="ps2_shifter_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="74000000001fs"></ZoomEndTime>
+      <Cursor1Time time="15020000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="215"></NameColumnWidth>
+      <ValueColumnWidth column_width="63"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject type="group" fp_name="group12">
+      <obj_property name="label">uut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/ps2_shifter_tb/uut/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/ps2_shifter_tb/uut/en">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/ps2_shifter_tb/uut/reset">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/ps2_shifter_tb/uut/ps2_data">
+         <obj_property name="ElementShortName">ps2_data</obj_property>
+         <obj_property name="ObjectShortName">ps2_data</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/ps2_shifter_tb/uut/rx_bit_strb">
+         <obj_property name="ElementShortName">rx_bit_strb</obj_property>
+         <obj_property name="ObjectShortName">rx_bit_strb</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/ps2_shifter_tb/uut/rx_ps2_packet">
+         <obj_property name="ElementShortName">rx_ps2_packet</obj_property>
+         <obj_property name="ObjectShortName">rx_ps2_packet</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/ps2_shifter_tb/uut/ps2_start_bit">
+         <obj_property name="ElementShortName">ps2_start_bit</obj_property>
+         <obj_property name="ObjectShortName">ps2_start_bit</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/ps2_shifter_tb/uut/ps2_byte">
+         <obj_property name="ElementShortName">ps2_byte[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ps2_byte[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/ps2_shifter_tb/uut/ps2_parity">
+         <obj_property name="ElementShortName">ps2_parity</obj_property>
+         <obj_property name="ObjectShortName">ps2_parity</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/ps2_shifter_tb/uut/ps2_stop">
+         <obj_property name="ElementShortName">ps2_stop</obj_property>
+         <obj_property name="ObjectShortName">ps2_stop</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/ps2_shifter_tb/uut/int_rx_ps2_packet">
+         <obj_property name="ElementShortName">int_rx_ps2_packet</obj_property>
+         <obj_property name="ObjectShortName">int_rx_ps2_packet</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/ps2_shifter_tb/uut/ps2_packet">
+         <obj_property name="ElementShortName">ps2_packet[0:10]</obj_property>
+         <obj_property name="ObjectShortName">ps2_packet[0:10]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/ps2_shifter_tb/uut/data_counter">
+         <obj_property name="ElementShortName">data_counter</obj_property>
+         <obj_property name="ObjectShortName">data_counter</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group11">
+      <obj_property name="label">pbrs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/ps2_shifter_tb/pbrs/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/ps2_shifter_tb/pbrs/en">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/ps2_shifter_tb/pbrs/reset">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/ps2_shifter_tb/pbrs/ps2_clk">
+         <obj_property name="ElementShortName">ps2_clk</obj_property>
+         <obj_property name="ObjectShortName">ps2_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/ps2_shifter_tb/pbrs/rx_bit_strb">
+         <obj_property name="ElementShortName">rx_bit_strb</obj_property>
+         <obj_property name="ObjectShortName">rx_bit_strb</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/ps2_shifter_tb/pbrs/int_rx_bit_strb">
+         <obj_property name="ElementShortName">int_rx_bit_strb</obj_property>
+         <obj_property name="ObjectShortName">int_rx_bit_strb</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/ps2_shifter_tb/pbrs/state_current">
+         <obj_property name="ElementShortName">state_current</obj_property>
+         <obj_property name="ObjectShortName">state_current</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/ps2_shifter_tb/pbrs/state_next">
+         <obj_property name="ElementShortName">state_next</obj_property>
+         <obj_property name="ObjectShortName">state_next</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/ps2_shifter_tb/pbrs/counter">
+         <obj_property name="ElementShortName">counter</obj_property>
+         <obj_property name="ObjectShortName">counter</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/ps2_shifter_tb/pbrs/DELAY">
+         <obj_property name="ElementShortName">DELAY</obj_property>
+         <obj_property name="ObjectShortName">DELAY</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

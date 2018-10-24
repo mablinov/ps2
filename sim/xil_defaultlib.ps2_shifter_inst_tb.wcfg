@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="xil_defaultlib.ps2_shifter_inst_tb.wdb" id="1">
+         <top_modules>
+            <top_module name="ps2_shifter_inst_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1776000000001fs"></ZoomEndTime>
+      <Cursor1Time time="630185000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="188"></NameColumnWidth>
+      <ValueColumnWidth column_width="154"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject type="logic" fp_name="/ps2_shifter_inst_tb/uut/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ps2_shifter_inst_tb/uut/ps2_clk">
+      <obj_property name="ElementShortName">ps2_clk</obj_property>
+      <obj_property name="ObjectShortName">ps2_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ps2_shifter_inst_tb/uut/ps2_data">
+      <obj_property name="ElementShortName">ps2_data</obj_property>
+      <obj_property name="ObjectShortName">ps2_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider20" type="divider">
+      <obj_property name="label">ps2_shifter_inst</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ps2_shifter_inst_tb/uut/ps2_shifter_inst/rx_bit_strb">
+      <obj_property name="ElementShortName">rx_bit_strb</obj_property>
+      <obj_property name="ObjectShortName">rx_bit_strb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ps2_shifter_inst_tb/uut/ps2_shifter_inst/rx_ps2_packet">
+      <obj_property name="ElementShortName">rx_ps2_packet</obj_property>
+      <obj_property name="ObjectShortName">rx_ps2_packet</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ps2_shifter_inst_tb/uut/ps2_shifter_inst/ps2_start_bit">
+      <obj_property name="ElementShortName">ps2_start_bit</obj_property>
+      <obj_property name="ObjectShortName">ps2_start_bit</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ps2_shifter_inst_tb/uut/ps2_shifter_inst/ps2_byte">
+      <obj_property name="ElementShortName">ps2_byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ps2_byte[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ps2_shifter_inst_tb/uut/ps2_shifter_inst/ps2_parity">
+      <obj_property name="ElementShortName">ps2_parity</obj_property>
+      <obj_property name="ObjectShortName">ps2_parity</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ps2_shifter_inst_tb/uut/ps2_shifter_inst/ps2_stop">
+      <obj_property name="ElementShortName">ps2_stop</obj_property>
+      <obj_property name="ObjectShortName">ps2_stop</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ps2_shifter_inst_tb/uut/ps2_shifter_inst/int_rx_ps2_packet">
+      <obj_property name="ElementShortName">int_rx_ps2_packet</obj_property>
+      <obj_property name="ObjectShortName">int_rx_ps2_packet</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ps2_shifter_inst_tb/uut/ps2_shifter_inst/ps2_packet">
+      <obj_property name="ElementShortName">ps2_packet[0:10]</obj_property>
+      <obj_property name="ObjectShortName">ps2_packet[0:10]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/ps2_shifter_inst_tb/uut/ps2_shifter_inst/data_counter">
+      <obj_property name="ElementShortName">data_counter</obj_property>
+      <obj_property name="ObjectShortName">data_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider80" type="divider">
+      <obj_property name="label">top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+</wave_config>
